@@ -11,7 +11,7 @@ if(!empty($_POST["submit"])) {
     if(!$result){
 			$message="Problem in Adding to database. Please Retry.";
 	} else {
-		$message = "تم اضافة هاتفك نتمنى ان تجده شكرا لتقتك بنا";
+		$message = "تم اضافة شكرا لتقتك بنا";
 echo "<script type='text/javascript'>alert('$message');
 window.open('verfier.php','_self')
 </script>";
